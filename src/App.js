@@ -1,4 +1,5 @@
 import TempCalculator from './TempCalculator';
+import './TempTitle';
 import './App.css';
 import { useEffect, useState } from 'react';
 
@@ -28,7 +29,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Temperature Calculator</h1>
+        <temp-title></temp-title>
       </header>
       <main>
         <div className="container">
