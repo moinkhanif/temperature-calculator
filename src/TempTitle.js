@@ -1,8 +1,4 @@
 class TempTitleComponent extends HTMLElement {
-  constructor() {
-    super();
-  }
-
   connectedCallback() {
     this.innerHTML = `<h1>Temperature Calculator</h1>`;
   }
